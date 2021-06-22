@@ -2,7 +2,7 @@ import pyautogui as pg
 import webbrowser as web
 import time
 import pandas as pd
-sheet = pd.read_csv("datos.csv")
+sheet = pd.read_csv("da.csv")
 dir = sheet.to_dict('list')
 celulares = dir['celular']
 mensajes = dir['mensaje']
